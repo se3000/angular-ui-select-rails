@@ -10,13 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["email@steveell.is"]
   spec.summary       = %q{Packaged version of AngularJS ui-select.}
   spec.description   = %q{Asset pipeline compatible version of https://github.com/angular-ui/ui-select}
-  spec.homepage      = ""
+  spec.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
+  spec.homepage      = "https://github.com/se3000/angular-ui-select-rails"
   spec.license       = "MIT"
-
-  spec.files         = `git ls-files -z`.split("\x0")
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = ["{lib,vendor}/**/*"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"

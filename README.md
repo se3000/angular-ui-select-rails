@@ -1,24 +1,31 @@
 # Angular::Ui::Select::Rails
 
-A gem version of AngularJS ui-select
+angular-ui-select-rails is a asset pipeline friendly version of [AngularJS ui-select](https://github.com/angular-ui/ui-select).
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add the gem in your Gemfile:
 
     gem 'angular-ui-select-rails'
+    
+After bundling, add the directives to your manifest files.
 
-And then execute:
+JavaScripts (application.js):
 
-    $ bundle
+    //= require angular-ui-select
 
-Or install it yourself as:
+Stylesheets (application.css):
+    
+    //= require angular-ui-select
+    
+Add 'ui.select' into your app declaration:
 
-    $ gem install angular-ui-select-rails
+    app = angular.module('MyApp', ["ui.select"])
+
 
 ## Usage
 
-TODO: Write usage instructions here
+See https://github.com/angular-ui/ui-select
 
 ## Contributing
 

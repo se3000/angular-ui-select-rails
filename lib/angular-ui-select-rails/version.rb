@@ -2,7 +2,7 @@ module Angular
   module Ui
     module Select
       module Rails
-        VERSION = "0.9.6"
+        VERSION = "0.12.0"
       end
     end
   end

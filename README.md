@@ -25,7 +25,16 @@ Add 'ui.select' into your app declaration:
 
 ## Usage
 
-See https://github.com/angular-ui/ui-select
+For instructions on setting up the Angular directives see https://github.com/angular-ui/ui-select.
+
+### Extra styling
+
+To include styles beyond the default, you can include Select2 CSS(v3.5):
+
+    //= require angular-ui-select2
+
+Or, include your choice of vendored Selectize stylesheets.
+
 
 ## Contributing
 

@@ -1,6 +1,4 @@
 require "angular-ui-select-rails/version"
-require "jquery-rails"
-require "select2-rails"
 
 module Angular
   module Ui
